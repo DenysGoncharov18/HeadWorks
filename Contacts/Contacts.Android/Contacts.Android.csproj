@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BF19825-7C98-491C-A073-B86D871A117E}</ProjectGuid>
+    <ProjectGuid>{CF3C6ACC-EA7C-4DB5-A248-3E9D036C778E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -88,7 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Contacts\Contacts.csproj">
-      <Project>{59B661B9-5820-4416-B4EF-DC1464728E44}</Project>
+      <Project>{1FCFFBE0-A431-4D61-9041-0722031B328A}</Project>
       <Name>Contacts</Name>
     </ProjectReference>
   </ItemGroup>
