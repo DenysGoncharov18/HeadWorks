@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Login"/>
+            <Entry x:Name="EntryLogin" Placeholder="Enter login" PlaceholderColor="DarkGray" ></Entry>
+            <Label Text="Password"/>
+            <Entry x:Name="EntryPassword" Placeholder="Enter login" PlaceholderColor="DarkGray" ></Entry>>
+                    <Button Text="LogIn"  Clicked="Button_Login_Click">
+                    </Button>
+                    
+                            <Label Text="Registration"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
